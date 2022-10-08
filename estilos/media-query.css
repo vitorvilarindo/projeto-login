@@ -5,11 +5,11 @@
     Azul: #312DEB
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 770px) and (max-width: 992px) {
         body, html {
             background-image: linear-gradient(to bottom, #4e37b4, #229b53 );
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
         }
       section#login {
