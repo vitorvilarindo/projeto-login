@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*
+    Paleta de Cores:
+    Verde: #27E873
+    Azul: #312DEB
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+   background-color: #312DEB;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+}
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.763);
+
+    transition: width .5s, heigth .3s;
+    transition-timing-function: ease;
+}
+section#login >div#imagem {
+    display: block;
+    background: #312DEB url(../imagens/imagem-pequena.jpg) no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    height: 200px;
+}
+section#login >div#formulario {
+    display: block;
+    padding: 10px;
+}
