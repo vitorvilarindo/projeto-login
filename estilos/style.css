@@ -58,3 +58,67 @@ div#formulario p {
     text-align: justify;
     font-size: 0.9em;
 }
+form > div.campo {
+    background-color: #4e37b4;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+div.campo > label {
+    display: none;
+}
+div.campo > i  {
+    color: white;
+  
+    font-size: 2em;
+    width: 40px;
+    padding: 2px;
+}
+div.campo > input {
+    background-color: #7ab6aa;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-9px);
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+}
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #514fb9;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+form > input[type=submit]:hover {
+    background-color: #3e2c8c;
+}
+form > a.esqueci {
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #312DEB;
+    text-decoration: none;
+    color: black;
+}
+form > a.esqueci > i{
+
+}
+form > a.esqueci:hover {
+    background-color: #3e2c8c;
+    color: white;
+}
