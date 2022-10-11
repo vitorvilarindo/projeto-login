@@ -5,7 +5,7 @@
     Azul: #312DEB
 */
 
-@media screen and (min-width: 800px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body, html {
         background-image: linear-gradient(to bottom, #4e37b4, #229b53 );
         background-repeat: no-repeat;
@@ -17,19 +17,23 @@
     }
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
-        background: url(../imagens/pexels-cottonbro-3584967.jpg) no-repeat;
+        background: url(../imagens/pexels-cottonbro-3585090.jpg) no-repeat;
         background-position: center center;
         background-size: cover;
     }
     section#login > div#formulario {
         float: right;
-        width: 70%;
+        width: 60%;
+    }
+    div#formulario p {
+        text-align: justify;
+        font-size: 1.0em;
     }
 }
 
-@media screen and  (min-width: 992px) {
+@media screen and  (min-width: 993px) {
     body, html {
         background-image: linear-gradient(to bottom, #4e37b4, #229b53 );
     }
@@ -37,14 +41,21 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background: #312DEB url(../imagens/pexels-cottonbro-3584967.jpg) no-repeat;
             background-size: cover;
     }
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formulario p {
+        font-size: 2em;
+    }
+    div#formulario p {
+        text-align: justify;
+        font-size: 1.0em;
     }
 }
