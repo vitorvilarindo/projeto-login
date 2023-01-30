@@ -77,7 +77,7 @@ div.campo > i  {
     padding: 2px;
 }
 div.campo > input {
-    background-color: #7ab6aa;
+    background-color: #7cbdb0;
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
@@ -114,9 +114,6 @@ form > a.esqueci {
     border: 1px solid #312DEB;
     text-decoration: none;
     color: black;
-}
-form > a.esqueci > i{
-
 }
 form > a.esqueci:hover {
     background-color: #3e2c8c;
